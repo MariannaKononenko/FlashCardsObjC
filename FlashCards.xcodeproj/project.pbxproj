@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35BEDDD232EC4F2006152DB /* PasswordValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BEDDC232EC4F2006152DB /* PasswordValidatorTests.m */; };
+		A35BEDDE232EC51F006152DB /* PasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DEA231BFED500CA1C5D /* PasswordValidator.m */; };
+		A35BEDE0232EC522006152DB /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DE7231BFEC700CA1C5D /* EmailValidator.m */; };
+		A35BEDE2232EC76B006152DB /* EmailValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BEDE1232EC76B006152DB /* EmailValidatorTests.m */; };
+		A3675DBB231BF53900CA1C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DBA231BF53900CA1C5D /* AppDelegate.m */; };
+		A3675DC3231BF53A00CA1C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3675DC2231BF53A00CA1C5D /* Assets.xcassets */; };
+		A3675DC6231BF53A00CA1C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3675DC4231BF53A00CA1C5D /* LaunchScreen.storyboard */; };
+		A3675DC9231BF53A00CA1C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DC8231BF53A00CA1C5D /* main.m */; };
+		A3675DE1231BF60100CA1C5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DE0231BF60100CA1C5D /* LoginViewController.m */; };
+		A3675DE3231BF63600CA1C5D /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3675DE2231BF63600CA1C5D /* LoginViewController.storyboard */; };
+		A3675DE8231BFEC700CA1C5D /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DE7231BFEC700CA1C5D /* EmailValidator.m */; };
+		A3675DEB231BFED500CA1C5D /* PasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DEA231BFED500CA1C5D /* PasswordValidator.m */; };
+		A3675DEF231BFF0400CA1C5D /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DEE231BFF0400CA1C5D /* LoginModel.m */; };
+		A3675DF3231C03CA00CA1C5D /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DF2231C03CA00CA1C5D /* AlertHelper.m */; };
+		A3675DF6231C0E1800CA1C5D /* AlertParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DF5231C0E1800CA1C5D /* AlertParams.m */; };
+		A3675DFA231C0EE500CA1C5D /* UIAlertAction+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A3675DF9231C0EE500CA1C5D /* UIAlertAction+Custom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3675DCF231BF53A00CA1C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3675DAE231BF53900CA1C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3675DB5231BF53900CA1C5D;
+			remoteInfo = FlashCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35BEDDC232EC4F2006152DB /* PasswordValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordValidatorTests.m; sourceTree = "<group>"; };
+		A35BEDE1232EC76B006152DB /* EmailValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailValidatorTests.m; sourceTree = "<group>"; };
+		A3675DB6231BF53900CA1C5D /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3675DB9231BF53900CA1C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3675DBA231BF53900CA1C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3675DC2231BF53A00CA1C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3675DC5231BF53A00CA1C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3675DC7231BF53A00CA1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3675DC8231BF53A00CA1C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3675DCE231BF53A00CA1C5D /* FlashCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3675DD4231BF53A00CA1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3675DDF231BF60100CA1C5D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A3675DE0231BF60100CA1C5D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A3675DE2231BF63600CA1C5D /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		A3675DE6231BFEC700CA1C5D /* EmailValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailValidator.h; sourceTree = "<group>"; };
+		A3675DE7231BFEC700CA1C5D /* EmailValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailValidator.m; sourceTree = "<group>"; };
+		A3675DE9231BFED500CA1C5D /* PasswordValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordValidator.h; sourceTree = "<group>"; };
+		A3675DEA231BFED500CA1C5D /* PasswordValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordValidator.m; sourceTree = "<group>"; };
+		A3675DED231BFF0400CA1C5D /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		A3675DEE231BFF0400CA1C5D /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		A3675DF1231C03CA00CA1C5D /* AlertHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertHelper.h; sourceTree = "<group>"; };
+		A3675DF2231C03CA00CA1C5D /* AlertHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertHelper.m; sourceTree = "<group>"; };
+		A3675DF4231C0E1800CA1C5D /* AlertParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertParams.h; sourceTree = "<group>"; };
+		A3675DF5231C0E1800CA1C5D /* AlertParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertParams.m; sourceTree = "<group>"; };
+		A3675DF8231C0EAB00CA1C5D /* UIAlertAction+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+Custom.h"; sourceTree = "<group>"; };
+		A3675DF9231C0EE500CA1C5D /* UIAlertAction+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+Custom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3675DB3231BF53900CA1C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3675DCB231BF53A00CA1C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3675DAD231BF53900CA1C5D = {
+			isa = PBXGroup;
+			children = (
+				A3675DB8231BF53900CA1C5D /* FlashCards */,
+				A3675DD1231BF53A00CA1C5D /* FlashCardsTests */,
+				A3675DB7231BF53900CA1C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3675DB7231BF53900CA1C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DB6231BF53900CA1C5D /* FlashCards.app */,
+				A3675DCE231BF53A00CA1C5D /* FlashCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3675DB8231BF53900CA1C5D /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DDD231BF57800CA1C5D /* Screens */,
+				A3675DF0231C03B100CA1C5D /* Shared */,
+				A3675DE4231BF70600CA1C5D /* Model */,
+				A3675DB9231BF53900CA1C5D /* AppDelegate.h */,
+				A3675DBA231BF53900CA1C5D /* AppDelegate.m */,
+				A3675DC2231BF53A00CA1C5D /* Assets.xcassets */,
+				A3675DC4231BF53A00CA1C5D /* LaunchScreen.storyboard */,
+				A3675DC7231BF53A00CA1C5D /* Info.plist */,
+				A3675DC8231BF53A00CA1C5D /* main.m */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
+		A3675DD1231BF53A00CA1C5D /* FlashCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A35BEDE1232EC76B006152DB /* EmailValidatorTests.m */,
+				A35BEDDC232EC4F2006152DB /* PasswordValidatorTests.m */,
+				A3675DD4231BF53A00CA1C5D /* Info.plist */,
+			);
+			path = FlashCardsTests;
+			sourceTree = "<group>";
+		};
+		A3675DDD231BF57800CA1C5D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DDE231BF58400CA1C5D /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A3675DDE231BF58400CA1C5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DDF231BF60100CA1C5D /* LoginViewController.h */,
+				A3675DE0231BF60100CA1C5D /* LoginViewController.m */,
+				A3675DE2231BF63600CA1C5D /* LoginViewController.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A3675DE4231BF70600CA1C5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DEC231BFEF600CA1C5D /* Login */,
+				A3675DE5231BFEB000CA1C5D /* Validation */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3675DE5231BFEB000CA1C5D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DE6231BFEC700CA1C5D /* EmailValidator.h */,
+				A3675DE7231BFEC700CA1C5D /* EmailValidator.m */,
+				A3675DE9231BFED500CA1C5D /* PasswordValidator.h */,
+				A3675DEA231BFED500CA1C5D /* PasswordValidator.m */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		A3675DEC231BFEF600CA1C5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DED231BFF0400CA1C5D /* LoginModel.h */,
+				A3675DEE231BFF0400CA1C5D /* LoginModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A3675DF0231C03B100CA1C5D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DF7231C0E3600CA1C5D /* Alert */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A3675DF7231C0E3600CA1C5D /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				A3675DF1231C03CA00CA1C5D /* AlertHelper.h */,
+				A3675DF2231C03CA00CA1C5D /* AlertHelper.m */,
+				A3675DF4231C0E1800CA1C5D /* AlertParams.h */,
+				A3675DF5231C0E1800CA1C5D /* AlertParams.m */,
+				A3675DF8231C0EAB00CA1C5D /* UIAlertAction+Custom.h */,
+				A3675DF9231C0EE500CA1C5D /* UIAlertAction+Custom.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3675DB5231BF53900CA1C5D /* FlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3675DD7231BF53A00CA1C5D /* Build configuration list for PBXNativeTarget "FlashCards" */;
+			buildPhases = (
+				A3675DB2231BF53900CA1C5D /* Sources */,
+				A3675DB3231BF53900CA1C5D /* Frameworks */,
+				A3675DB4231BF53900CA1C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCards;
+			productName = FlashCards;
+			productReference = A3675DB6231BF53900CA1C5D /* FlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3675DCD231BF53A00CA1C5D /* FlashCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3675DDA231BF53A00CA1C5D /* Build configuration list for PBXNativeTarget "FlashCardsTests" */;
+			buildPhases = (
+				A3675DCA231BF53A00CA1C5D /* Sources */,
+				A3675DCB231BF53A00CA1C5D /* Frameworks */,
+				A3675DCC231BF53A00CA1C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3675DD0231BF53A00CA1C5D /* PBXTargetDependency */,
+			);
+			name = FlashCardsTests;
+			productName = FlashCardsTests;
+			productReference = A3675DCE231BF53A00CA1C5D /* FlashCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3675DAE231BF53900CA1C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "JetBrains";
+				TargetAttributes = {
+					A3675DB5231BF53900CA1C5D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A3675DCD231BF53A00CA1C5D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3675DB5231BF53900CA1C5D;
+					};
+				};
+			};
+			buildConfigurationList = A3675DB1231BF53900CA1C5D /* Build configuration list for PBXProject "FlashCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3675DAD231BF53900CA1C5D;
+			productRefGroup = A3675DB7231BF53900CA1C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3675DB5231BF53900CA1C5D /* FlashCards */,
+				A3675DCD231BF53A00CA1C5D /* FlashCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3675DB4231BF53900CA1C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3675DC6231BF53A00CA1C5D /* LaunchScreen.storyboard in Resources */,
+				A3675DE3231BF63600CA1C5D /* LoginViewController.storyboard in Resources */,
+				A3675DC3231BF53A00CA1C5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3675DCC231BF53A00CA1C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3675DB2231BF53900CA1C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3675DE1231BF60100CA1C5D /* LoginViewController.m in Sources */,
+				A3675DF3231C03CA00CA1C5D /* AlertHelper.m in Sources */,
+				A3675DE8231BFEC700CA1C5D /* EmailValidator.m in Sources */,
+				A3675DEB231BFED500CA1C5D /* PasswordValidator.m in Sources */,
+				A3675DF6231C0E1800CA1C5D /* AlertParams.m in Sources */,
+				A3675DFA231C0EE500CA1C5D /* UIAlertAction+Custom.m in Sources */,
+				A3675DC9231BF53A00CA1C5D /* main.m in Sources */,
+				A3675DBB231BF53900CA1C5D /* AppDelegate.m in Sources */,
+				A3675DEF231BFF0400CA1C5D /* LoginModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3675DCA231BF53A00CA1C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35BEDDE232EC51F006152DB /* PasswordValidator.m in Sources */,
+				A35BEDE2232EC76B006152DB /* EmailValidatorTests.m in Sources */,
+				A35BEDE0232EC522006152DB /* EmailValidator.m in Sources */,
+				A35BEDDD232EC4F2006152DB /* PasswordValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3675DD0231BF53A00CA1C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3675DB5231BF53900CA1C5D /* FlashCards */;
+			targetProxy = A3675DCF231BF53A00CA1C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3675DC4231BF53A00CA1C5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3675DC5231BF53A00CA1C5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3675DD5231BF53A00CA1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3675DD6231BF53A00CA1C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3675DD8231BF53A00CA1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXN2BSC8DY;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekononenko.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3675DD9231BF53A00CA1C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXN2BSC8DY;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekononenko.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3675DDB231BF53A00CA1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXN2BSC8DY;
+				INFOPLIST_FILE = FlashCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekononenko.FlashCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCards.app/FlashCards";
+			};
+			name = Debug;
+		};
+		A3675DDC231BF53A00CA1C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXN2BSC8DY;
+				INFOPLIST_FILE = FlashCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekononenko.FlashCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCards.app/FlashCards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3675DB1231BF53900CA1C5D /* Build configuration list for PBXProject "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3675DD5231BF53A00CA1C5D /* Debug */,
+				A3675DD6231BF53A00CA1C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3675DD7231BF53A00CA1C5D /* Build configuration list for PBXNativeTarget "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3675DD8231BF53A00CA1C5D /* Debug */,
+				A3675DD9231BF53A00CA1C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3675DDA231BF53A00CA1C5D /* Build configuration list for PBXNativeTarget "FlashCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3675DDB231BF53A00CA1C5D /* Debug */,
+				A3675DDC231BF53A00CA1C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3675DAE231BF53900CA1C5D /* Project object */;
+}
